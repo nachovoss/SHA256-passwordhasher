@@ -1,8 +1,10 @@
 import hashlib
-print('wellcome to password hasher to exit the script type exit')
-m=hashlib.sha256()
-while True:
 
+print('welcome to password hasher to exit the script type exit')
+
+m=hashlib.sha256()
+
+while True:
     wordtohash = input('type a password you want to encrypt: ')
     if 'exit' in wordtohash:
         quit()
